@@ -11,6 +11,7 @@ replace (
 require (
 	cloud.google.com/go/storage v1.33.0
 	github.com/OneOfOne/xxhash v1.2.8
+	github.com/Shopify/sarama v0.0.0-00010101000000-000000000000
 	github.com/ajstarks/svgo v0.0.0-20120208033236-d91d3105f1ea
 	github.com/aws/aws-sdk-go v1.45.24
 	github.com/chrislusf/glow v0.0.0-20181102060906-4c40a2717eee
@@ -37,18 +38,14 @@ require (
 )
 
 require (
-	github.com/IBM/sarama v1.41.2 // indirect
-	github.com/Shopify/sarama v1.41.2
-)
-
-require (
 	cloud.google.com/go v0.110.4 // indirect
 	cloud.google.com/go/compute v1.21.0 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	cloud.google.com/go/iam v1.1.1 // indirect
+	github.com/IBM/sarama v0.0.0-00010101000000-000000000000 // indirect
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 // indirect
 	github.com/alecthomas/units v0.0.0-20211218093645-b94a6e3cc137 // indirect
-	github.com/apache/thrift v0.14.2 // indirect
+	github.com/apache/thrift v0.13.1-0.20201008052519-daf620915714 // indirect
 	github.com/cznic/golex v0.0.0-20181122101858-9c343928389c // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/eapache/go-resiliency v1.4.0 // indirect
